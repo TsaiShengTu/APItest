@@ -13,7 +13,39 @@
 		9C18B70028D80DE300A65692 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C18B6FE28D80DE300A65692 /* Main.storyboard */; };
 		9C18B70228D80DE400A65692 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C18B70128D80DE400A65692 /* Assets.xcassets */; };
 		9C18B70528D80DE400A65692 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C18B70328D80DE400A65692 /* LaunchScreen.storyboard */; };
+		9C18B70D28D80E1900A65692 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C18B70C28D80E1900A65692 /* TestViewController.swift */; };
+		9C18B71128D811F300A65692 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 9C18B71028D811F300A65692 /* Kingfisher */; };
+		9C18B71328D812E400A65692 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C18B71228D812E400A65692 /* Image.swift */; };
+		9C18B71528D848FC00A65692 /* APItestTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C18B71428D848FC00A65692 /* APItestTableViewController.swift */; };
+		9C18B71728D8492900A65692 /* APItestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C18B71628D8492900A65692 /* APItestTableViewCell.swift */; };
+		9C18B71928D849C200A65692 /* APItestJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C18B71828D849C200A65692 /* APItestJson.swift */; };
+		9CA0245328E677400083508F /* SongTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA0245228E677400083508F /* SongTableViewController.swift */; };
+		9CA0245528E678570083508F /* SongTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA0245428E678570083508F /* SongTableViewCell.swift */; };
+		9CA0245728E67AFC0083508F /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA0245628E67AFC0083508F /* Song.swift */; };
+		9CA0245928E687B70083508F /* PicCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA0245828E687B70083508F /* PicCollectionViewCell.swift */; };
+		9CA0245B28E688380083508F /* PicCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA0245A28E688380083508F /* PicCollectionViewController.swift */; };
+		9CA0246128E6986B0083508F /* DogsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA0246028E6986B0083508F /* DogsTableViewController.swift */; };
+		9CA0246328E6987D0083508F /* DogsAddTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA0246228E6987D0083508F /* DogsAddTableViewController.swift */; };
+		9CA0246528E698960083508F /* Dogs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA0246428E698960083508F /* Dogs.swift */; };
+		9CA0246728E698B80083508F /* DogTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA0246628E698B80083508F /* DogTableViewCell.swift */; };
+		9CA0246928E698D00083508F /* DogsAddDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA0246828E698D00083508F /* DogsAddDetailTableViewCell.swift */; };
+		9CCCA6CB28EA8C14003BF198 /* PoemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCCA6CA28EA8C14003BF198 /* PoemViewController.swift */; };
+		9CD5DD8E28E18B2C0051479E /* PeterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD5DD8D28E18B2C0051479E /* PeterViewController.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		9C18B70E28D811E100A65692 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = pattern.proxy;
+			inputFiles = (
+			);
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+/* End PBXBuildRule section */
 
 /* Begin PBXFileReference section */
 		9C18B6F528D80DE300A65692 /* APItest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APItest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,6 +56,23 @@
 		9C18B70128D80DE400A65692 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C18B70428D80DE400A65692 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C18B70628D80DE400A65692 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C18B70C28D80E1900A65692 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		9C18B71228D812E400A65692 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		9C18B71428D848FC00A65692 /* APItestTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APItestTableViewController.swift; sourceTree = "<group>"; };
+		9C18B71628D8492900A65692 /* APItestTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APItestTableViewCell.swift; sourceTree = "<group>"; };
+		9C18B71828D849C200A65692 /* APItestJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APItestJson.swift; sourceTree = "<group>"; };
+		9CA0245228E677400083508F /* SongTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongTableViewController.swift; sourceTree = "<group>"; };
+		9CA0245428E678570083508F /* SongTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongTableViewCell.swift; sourceTree = "<group>"; };
+		9CA0245628E67AFC0083508F /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		9CA0245828E687B70083508F /* PicCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicCollectionViewCell.swift; sourceTree = "<group>"; };
+		9CA0245A28E688380083508F /* PicCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicCollectionViewController.swift; sourceTree = "<group>"; };
+		9CA0246028E6986B0083508F /* DogsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsTableViewController.swift; sourceTree = "<group>"; };
+		9CA0246228E6987D0083508F /* DogsAddTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsAddTableViewController.swift; sourceTree = "<group>"; };
+		9CA0246428E698960083508F /* Dogs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dogs.swift; sourceTree = "<group>"; };
+		9CA0246628E698B80083508F /* DogTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogTableViewCell.swift; sourceTree = "<group>"; };
+		9CA0246828E698D00083508F /* DogsAddDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsAddDetailTableViewCell.swift; sourceTree = "<group>"; };
+		9CCCA6CA28EA8C14003BF198 /* PoemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoemViewController.swift; sourceTree = "<group>"; };
+		9CD5DD8D28E18B2C0051479E /* PeterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C18B71128D811F300A65692 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,11 +110,52 @@
 				9C18B6FA28D80DE300A65692 /* SceneDelegate.swift */,
 				9C18B6FC28D80DE300A65692 /* ViewController.swift */,
 				9C18B6FE28D80DE300A65692 /* Main.storyboard */,
+				9CCCA6CA28EA8C14003BF198 /* PoemViewController.swift */,
+				9CA0245F28E698420083508F /* Text Group */,
+				9CA0245C28E697F70083508F /* New Group */,
+				9CA0245D28E6980A0083508F /* Song Group */,
+				9CD5DD8D28E18B2C0051479E /* PeterViewController.swift */,
+				9C18B71628D8492900A65692 /* APItestTableViewCell.swift */,
+				9C18B71428D848FC00A65692 /* APItestTableViewController.swift */,
+				9C18B71828D849C200A65692 /* APItestJson.swift */,
+				9C18B70C28D80E1900A65692 /* TestViewController.swift */,
+				9C18B71228D812E400A65692 /* Image.swift */,
 				9C18B70128D80DE400A65692 /* Assets.xcassets */,
 				9C18B70328D80DE400A65692 /* LaunchScreen.storyboard */,
 				9C18B70628D80DE400A65692 /* Info.plist */,
 			);
 			path = APItest;
+			sourceTree = "<group>";
+		};
+		9CA0245C28E697F70083508F /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				9CA0245A28E688380083508F /* PicCollectionViewController.swift */,
+				9CA0245828E687B70083508F /* PicCollectionViewCell.swift */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		9CA0245D28E6980A0083508F /* Song Group */ = {
+			isa = PBXGroup;
+			children = (
+				9CA0245628E67AFC0083508F /* Song.swift */,
+				9CA0245428E678570083508F /* SongTableViewCell.swift */,
+				9CA0245228E677400083508F /* SongTableViewController.swift */,
+			);
+			path = "Song Group";
+			sourceTree = "<group>";
+		};
+		9CA0245F28E698420083508F /* Text Group */ = {
+			isa = PBXGroup;
+			children = (
+				9CA0246028E6986B0083508F /* DogsTableViewController.swift */,
+				9CA0246228E6987D0083508F /* DogsAddTableViewController.swift */,
+				9CA0246428E698960083508F /* Dogs.swift */,
+				9CA0246628E698B80083508F /* DogTableViewCell.swift */,
+				9CA0246828E698D00083508F /* DogsAddDetailTableViewCell.swift */,
+			);
+			path = "Text Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -79,10 +170,14 @@
 				9C18B6F328D80DE300A65692 /* Resources */,
 			);
 			buildRules = (
+				9C18B70E28D811E100A65692 /* PBXBuildRule */,
 			);
 			dependencies = (
 			);
 			name = APItest;
+			packageProductDependencies = (
+				9C18B71028D811F300A65692 /* Kingfisher */,
+			);
 			productName = APItest;
 			productReference = 9C18B6F528D80DE300A65692 /* APItest.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +206,9 @@
 				Base,
 			);
 			mainGroup = 9C18B6EC28D80DE300A65692;
+			packageReferences = (
+				9C18B70F28D811F300A65692 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 9C18B6F628D80DE300A65692 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +236,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CA0246328E6987D0083508F /* DogsAddTableViewController.swift in Sources */,
+				9CA0245728E67AFC0083508F /* Song.swift in Sources */,
+				9CA0245928E687B70083508F /* PicCollectionViewCell.swift in Sources */,
+				9CA0245328E677400083508F /* SongTableViewController.swift in Sources */,
+				9C18B71928D849C200A65692 /* APItestJson.swift in Sources */,
+				9CD5DD8E28E18B2C0051479E /* PeterViewController.swift in Sources */,
+				9CA0245B28E688380083508F /* PicCollectionViewController.swift in Sources */,
+				9CA0246528E698960083508F /* Dogs.swift in Sources */,
+				9CA0246728E698B80083508F /* DogTableViewCell.swift in Sources */,
+				9CA0246928E698D00083508F /* DogsAddDetailTableViewCell.swift in Sources */,
+				9CA0245528E678570083508F /* SongTableViewCell.swift in Sources */,
+				9CCCA6CB28EA8C14003BF198 /* PoemViewController.swift in Sources */,
 				9C18B6FD28D80DE300A65692 /* ViewController.swift in Sources */,
 				9C18B6F928D80DE300A65692 /* AppDelegate.swift in Sources */,
+				9C18B70D28D80E1900A65692 /* TestViewController.swift in Sources */,
 				9C18B6FB28D80DE300A65692 /* SceneDelegate.swift in Sources */,
+				9CA0246128E6986B0083508F /* DogsTableViewController.swift in Sources */,
+				9C18B71528D848FC00A65692 /* APItestTableViewController.swift in Sources */,
+				9C18B71728D8492900A65692 /* APItestTableViewCell.swift in Sources */,
+				9C18B71328D812E400A65692 /* Image.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +471,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9C18B70F28D811F300A65692 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9C18B71028D811F300A65692 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9C18B70F28D811F300A65692 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9C18B6ED28D80DE300A65692 /* Project object */;
 }
