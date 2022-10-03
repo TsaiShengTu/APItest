@@ -700,7 +700,7 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1cM-qj-ujH">
                                                 <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="peterboy1" translatesAutoresizingMaskIntoConstraints="NO" id="sN6-YG-z0s">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="peterboy" translatesAutoresizingMaskIntoConstraints="NO" id="sN6-YG-z0s">
                                                         <rect key="frame" x="30" y="90" width="330" height="300"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="300" id="dnn-fI-fcq"/>
@@ -1273,6 +1273,7 @@
     <resources>
         <image name="1" width="6480" height="4320"/>
         <image name="Group 1812" width="309" height="343"/>
+        <image name="peterboy" width="224" height="225"/>
         <image name="peterboy1" width="259" height="194"/>
         <systemColor name="labelColor">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
